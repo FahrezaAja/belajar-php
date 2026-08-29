@@ -4,8 +4,8 @@
 $names = ["Fahreza", "Mandala", "Putra"];
 
 
-foreach ($names as $name) {
-    echo "Data : $name" . PHP_EOL;
+foreach ($names as $name) { // $name adalah variable sementara yang akan menampung data dari array $names
+    echo "Data : $name" . PHP_EOL; // akan menampilkan data dari array $names atau seluruh data yang ada di array $names
 }
 
 
